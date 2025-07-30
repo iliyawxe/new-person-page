@@ -60,6 +60,11 @@ body{
 .nav-link{
     width: 100%;
 }
+.nav-item{
+  padding:0;
+  background-color: #fff;
+  border-radius: 5px;
+}
 .tab-content{
   background: transparent !important;  
 }
@@ -80,10 +85,11 @@ table{
    tr{
     border-bottom: 1px solid #f2ebeb;
     transition: 0.5s ease all;
+   
    }
    td{
     text-align: center;
-    padding: 15px 5px;
+    padding: 17px 5px 19px 5px;
    }
    tbody tr:nth-child(odd){
     background:hsla(0, 0%, 100%, 0);
@@ -100,4 +106,26 @@ table{
    }
    tr:last-child{
     border-bottom: none;
+   }
+   .haghighi{
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 4px;
+    padding-bottom: 8px;
+   }
+   .hoghooghi{
+    color: #f51212;
+    border: 1px solid #f51212;
+    border-radius: 8px;
+    padding: 4px;
+    padding-bottom: 8px;
+   }
+   .ashnayi{
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0px;
+    padding: 0px 7px;
+    padding-bottom: 2px;
    }
