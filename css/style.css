@@ -22,3 +22,82 @@
     url(../font/Dana-Bold.woff) format("woff"),
     url(../font/Dana-Bold.woff2) format("woff2");
 }
+body{
+  background-color: #121117;
+}
+.container{
+  background-image: url("../images/backg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custom-tabs {
+    position: relative;
+    display: flex;
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
+.custom-tabs .nav-link {
+    color: #555;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    z-index: 2;
+  }
+.custom-tabs .nav-link.active {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+.tab-pane.fade {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+  }
+.tab-pane.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+  } 
+.nav-link{
+    width: 100%;
+}
+.tab-content{
+  background: transparent !important;  
+}
+table{
+    width: 90%;
+    color:#fff;
+    box-shadow: 5px 5px #000;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    transition: 0.8s ease all;
+    overflow: hidden;
+   }
+   th{
+    background-color: #000;
+    text-align: center;
+    padding: 6px;
+   }
+   tr{
+    border-bottom: 1px solid #f2ebeb;
+    transition: 0.5s ease all;
+   }
+   td{
+    text-align: center;
+    padding: 15px 5px;
+   }
+   tbody tr:nth-child(odd){
+    background:hsla(0, 0%, 100%, 0);
+    backdrop-filter:blur(4px);
+   }
+   tbody tr:nth-child(even){
+    background:hsla(0, 0%, 100%, 0);
+    backdrop-filter:blur(6px);
+   }
+   tbody tr:hover{
+    background-color: #121117;
+    box-shadow:0 0 10px #fff;
+    cursor: pointer;
+   }
+   tr:last-child{
+    border-bottom: none;
+   }
