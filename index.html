@@ -50,122 +50,192 @@
                 id="myTabContent"
             >
                 <div
-                    class="tab-pane d-flex justify-content-center fade show active"
+                    class="tab-pane fade show active"
                     id="home"
                     role="tabpanel"
                 >
-                    <table class="my-4">
-                        <thead>
-                            <tr>
-                                <th>کد</th>
-                                <th>عنوان</th>
-                                <th>نوع مالکیت</th>
-                                <th>شناسه/کد ملی</th>
-                                <th>روشش آشنایی</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <<td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="hoghooghi">حقوقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="hoghooghi">حقوقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="haghighi">حقیقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>00100</td>
-                                <td>ایلیا امانی</td>
-                                <td>
-                                  <span class="hoghooghi">حقوقی</span>
-                                </td>
-                                <td>00001234043</td>
-                                <td>
-                                  <span class="ashnayi">شبکه اجتماعی</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="row">
+                        <div class="col">
+                            <h3>اشخاص و سازمان ها</h3>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="search-box">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="جستجو..."
+                                        />
+                                        <button type="button">
+                                            <i
+                                                class="fa-solid fa-magnifying-glass"
+                                            ></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <a href="#">
+                                        <i
+                                            class="fa-solid fa-plus icon-plus"
+                                        ></i>
+                                    </a>
+                                </div>
+                                <div class="col-1">
+                                    <a href="#">
+                                        <i class="fa-solid fa-pen icon-pen"></i>
+                                    </a>
+                                </div>
+                                <div class="col-1">
+                                    <a href="#">
+                                        <i
+                                            class="fa-solid fa-trash icon-trash"
+                                        ></i>
+                                    </a>
+                                </div>
+                                <div class="col-1">
+                                    <a href="#">
+                                        <i
+                                            class="fa-solid fa-download icon-down"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <table class="col my-4">
+                            <thead>
+                                <tr>
+                                    <th>کد</th>
+                                    <th>عنوان</th>
+                                    <th>نوع مالکیت</th>
+                                    <th>شناسه/کد ملی</th>
+                                    <th>روشش آشنایی</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="hoghooghi">حقوقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="hoghooghi">حقوقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="haghighi">حقیقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>00100</td>
+                                    <td>ایلیا امانی</td>
+                                    <td>
+                                        <span class="hoghooghi">حقوقی</span>
+                                    </td>
+                                    <td>00001234043</td>
+                                    <td>
+                                        <span class="ashnayi"
+                                            >شبکه اجتماعی</span
+                                        >
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row"></div>
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel">
                     knjkvdvnkdnvkdns dsvkldnvjknjknvkjdsnvvj jnjndsjvnjdsnvdn

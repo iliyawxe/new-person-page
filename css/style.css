@@ -29,6 +29,39 @@ body{
   background-image: url("../images/backg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+}
+h3 {
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 26px;
+}
+.search-box {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+.search-box input {
+  border-radius: 30px;
+  padding-right: 40px;
+  padding-left: 15px;
+  box-shadow: 4px 4px #000;
+  border: 1px solid #000;
+}
+.search-box input:hover {
+  background-color: #ccc;
+}
+.search-box button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: #777;
+}
+.search-box button:hover {
+  color: #000;
 }
 .custom-tabs {
     position: relative;
@@ -80,7 +113,7 @@ table{
    th{
     background-color: #000;
     text-align: center;
-    padding: 6px;
+    padding: 20px 0px;
    }
    tr{
     border-bottom: 1px solid #f2ebeb;
@@ -122,10 +155,34 @@ table{
     padding-bottom: 8px;
    }
    .ashnayi{
-    background-color: #333;
-    border: 1px solid #333;
+    background-color: #666;
+    border: 1px solid #666;
     border-radius: 8px;
     padding: 0px;
     padding: 0px 7px;
     padding-bottom: 2px;
    }
+.icon-plus{
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 7px;
+  padding: 8px;
+}
+.icon-plus:hover{
+  background-color: #519def;
+}
+.icon-pen{
+  color: #666;
+}
+.icon-trash{
+  color: #666;
+}
+.icon-down{
+  background-color: #116218cf;
+  color: #fff;
+  border-radius: 7px;
+  padding: 8px;
+}
+.icon-down:hover{
+  background-color: #35883ccf;
+}
