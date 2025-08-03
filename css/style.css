@@ -176,8 +176,8 @@ table{
 .icon-plus{
   background-color: #007bff;
   color: #fff;
-  border-radius: 7px;
-  padding: 8px;
+  border-radius: 9px;
+  padding: 12px;
 }
 .icon-plus:hover{
   background-color: #519def;
@@ -189,11 +189,34 @@ table{
   color: #666;
 }
 .icon-down{
-  background-color: #116218cf;
+  background-color: #116218;
   color: #fff;
-  border-radius: 7px;
-  padding: 8px;
+  border-radius: 9px;
+  padding: 12px;
 }
 .icon-down:hover{
   background-color: #35883ccf;
+}
+.icon-arrow{
+  background-color: #3a3d4ab5;
+  color: #fff;
+  border-radius: 9px;
+  padding: 12px;
+}
+.icon-file{
+  background-color: #409749;
+  color: #000;
+  border-radius: 9px;
+  padding: 12px;
+}
+.icon-file:hover{
+  background-color: #5a9960;
+}
+.box{
+  margin-top: 20px;
+  height: 250px;
+  background:hsla(0, 0%, 100%, 0);
+  backdrop-filter:blur(15px);
+  border: 1px solid #fff;
+   border-radius: 40px;
 }
