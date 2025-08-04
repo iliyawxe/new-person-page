@@ -23,10 +23,10 @@
     url(../font/Dana-Bold.woff2) format("woff2");
 }
 body{
-  background-color: #121117;
+  background-color: #080808;
 }
 .container{
-  background-image: url("../images/backg.jpg");
+  background-image: url("../images/bbb1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -83,10 +83,10 @@ h3 {
     transition: all 0.7s ease;
   }
 .custom-tabs .nav-link.active {
-    background: #1d3e61;
+    background: #505050;
     box-shadow: 0 0 10px #fff;
     border: none;
-    color: #fff;
+    color: #000;
     transition: all 0.7s ease;
 
   }
@@ -111,18 +111,16 @@ h3 {
 table{
     width: 90%;
     color:#fff;
-    box-shadow: 6px 6px #000;
+    box-shadow: 0px 0px 10px #666;
     border-radius: 20px;
     transition: 0.8s ease all;
     overflow: hidden;
-    border-left:4px solid #999 !important ;
 
    }
    th{
     background-color: #000;
     text-align: center;
     padding: 20px 0px;
-    border-left:4px solid #000 !important ;
 
    }
    tr{
@@ -144,7 +142,7 @@ table{
     backdrop-filter:blur(6px);
    }
    tbody tr:hover{
-    background-color: #121117;
+    background-color: #1f1f1f;
     box-shadow:0 0 10px #fff;
     cursor: pointer;
    }
@@ -214,9 +212,48 @@ table{
 }
 .box{
   margin-top: 20px;
-  height: 250px;
   background:hsla(0, 0%, 100%, 0);
-  backdrop-filter:blur(15px);
-  border: 1px solid #fff;
+  backdrop-filter:blur(4px);
+  /* border: 1px solid #fff; */
+  box-shadow: 0px 0px 10px #666;
    border-radius: 40px;
+   overflow: hidden;
+}
+.inner-tab-menu {
+  border-bottom: 1px solid #aaa;
+}
+
+.inner-tab {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  padding:20px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inner-tab:hover {
+  color: #666;
+  border-bottom: #666;
+  background-color: #50505042;
+}
+.inner-tab.active{
+  background-color: #505050;
+}
+.inner-tab.active:hover{
+  color: #ccc;
+}
+
+.inner-page {
+  display: none;
+  /* background-color: #444; */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.inner-page.active {
+  display: block;
 }

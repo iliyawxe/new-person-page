@@ -11,7 +11,6 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
         <script src="js/bootstrap.bundle.js"></script>
-        <script src="js/script.js"></script>
     </head>
     <body>
         <div class="container my-5 p-5">
@@ -263,30 +262,50 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="box">
-                            <div class="row">
-                                <div class="col">
-                                    <ul>
-                                        <li>
-                                        </li>
-                                        <li>
-                                        </li>
-                                        <li>
-                                        </li>
-                                        <li>
-                                        </li>
-                                        <li>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="row ">
+                        <div class="col box">
+                            <ul class="row inner-tab-menu list-unstyled d-flex gap-3">
+                              <li class="col p-0"><button class="inner-tab active" data-target="page1">اطلاعات اصلی</button></li>
+                              <li class="col p-0"><button class="inner-tab" data-target="page2">اطلاعات تماس</button></li>
+                              <li class="col p-0"><button class="inner-tab" data-target="page3">اشخاص مرتبط و صاحبان امضا</button></li>
+                              <li class="col p-0"><button class="inner-tab" data-target="page4">یادداشت ها</button></li>
+                              <li class="col p-0"><button class="inner-tab" data-target="page5">ضمائم</button></li>
+                            </ul>
+                            <div id="row inner-tab-pages">
+                              <div class="inner-page active" id="page1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam saepe laboriosam fugiat magnam sed dolore eum qui aliquid accusamus, dignissimos sunt dolorem id rem amet. Delectus beatae nulla incidunt!ing elit. Atque quisquam saepe laboriosam fugiat magnam sed dolore eum qui aliquid accusamus, dignissimos sunt dolorem id rem amet. Delectus beatae nulla incidunt!ing elit. Atque quisquam saepe laboriosam fugiat magnam sed dolore eum qui aliquid accusamus, dignissimos sunt dolorem id rem amet. Delectus beatae nulla incidunt!ing elit. Atque quisquam saepe laboriosam fugiat magnam sed dolore eum qui aliquid accusamus, dignissimos sunt dolorem id rem amet. Delectus beatae nulla incidunt!
+                              </div>
+                              <div class="inner-page" id="page2">
+                                <h5>اطلاعات تماس</h5>
+                                <form>
+                                  <div class="mb-2">
+                                    <label for="phone">شماره تماس:</label>
+                                    <input type="text" id="phone" class="form-control" />
+                                  </div>
+                                  <div class="mb-2">
+                                    <label for="email">ایمیل:</label>
+                                    <input type="email" id="email" class="form-control" />
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="inner-page" id="page3">
+                                <h5>اطلاعات مالی</h5>
+                                <p>مثلاً: شماره حساب، مبلغ، نوع پرداخت...</p>
+                              </div>
+                              <div class="inner-page" id="page4">
+                                <h5>سوابق</h5>
+                                <p>مثلاً: سوابق شغلی، تحصیلی یا رزومه.</p>
+                              </div>
+                              <div class="inner-page" id="page5">
+                                <h5>ضمائم</h5>
+                                <p>مثلاً: سوابق شغلی، تحصیلی یا رزومه.</p>
+                              </div>
                             </div>
-                            <div class="row"></div>
-
-                        </div>
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
